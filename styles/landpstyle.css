@@ -62,17 +62,16 @@ p {
 .btn2 {
   width: 243px;
   height: 54px;
-  background-color: black;
+  background-color: white;
   font-weight: bold;
   border: none;
-  color: white;
+  color: black;
   margin-top: 12px;
   font-size: 21px;
   border-radius: 7px;
   transition: all 0.3s ease;
   margin-left: 52px;
   cursor: pointer;
-  box-shadow:  12px 12px 12px  rgba(34, 12, 12, 0.596);
 }
 .btn2:hover {
   opacity: 0.8;
