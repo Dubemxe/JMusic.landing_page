@@ -14,7 +14,7 @@ body, html {
   border: none;
   height: 43px;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   border-radius: 7px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -40,7 +40,7 @@ p {
 }
 .logotxt {
   margin-left: 25px;
-  margin-right: 600px;
+  margin-right: 800px;
   margin-bottom: 0;
   color: rgba(247, 243, 12, 0.911);
   cursor: pointer;
