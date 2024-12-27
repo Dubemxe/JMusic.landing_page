@@ -4,11 +4,11 @@ body, html {
 .header {
   display: flex;
   flex-direction: row;
-  column-gap: 60px;
+  column-gap: 50px;
   align-items: center;
 }
 .btn1 {
-  background-color: black;
+  background-color: rgba(81, 45, 241, 0.082);
   width: 115px;
   font-weight: bold;
   border: none;
@@ -27,7 +27,7 @@ a {
   color: white;
 }
 .container {
-  background-image: url('images/bbg1.jpg');
+  background-image: url('images/bbgimg.jpg');
   height: 120vh;
   width: 100%;
   padding-top: 30px;
