@@ -41,6 +41,7 @@ p {
   color: white;
   font-weight:  bolder;
   font-size: 23px;
+  margin-top: 10px;
   font-family: sans-serif;
 }
 .logotxt {
@@ -50,6 +51,7 @@ p {
   color: rgba(247, 243, 12, 0.911);
   cursor: pointer;
   font-size: 34px;
+  margin-top: 0px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logotxt:hover {
