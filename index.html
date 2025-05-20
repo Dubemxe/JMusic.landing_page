@@ -1,26 +1,41 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Login to JMusic</title>
-    <link rel="stylesheet" href="styles/landpstyle.css">
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-</style>
-  </head>
-
-
-  <body>
-<div class="container">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to JMusic</title>
+  <link rel="stylesheet" href="styles/landpstyle.css">
+</head>
+<body>
+  <div class="container">
 
 
     <div class="header">
-<p class="logotxt">JMusic</p>
-<p><a  href="#">About Us</a></p>
-<p><a  href="#"> Support</a></p>
-<button class="btn1 faculty-glyphic-regular" onclick="window.href='https://jmusic-1xuz.onrender.com/JMusic.login.html'">Login</button>
+      <img src="images/jmusic.logo.png" alt="" class="logotxt">
+<a  href="aboutpage.html">About Us</a>
+<a  href="#"> Support</a>
+<a href='https://jmusic-1xuz.onrender.com/JMusic.login.html'">Login</a>
 </div>
-<p class="paneltxt faculty-glyphic-regular">Discover. Get Inspired.<br>Explore JMusic</p>
-<button class="btn2 faculty-glyphic-regular" onclick="window.location.href ='https://jmusic-1xuz.onrender.com/'">SignUp for JMusic</button>
+<div class="txtbox">
+<p class="paneltxt" id="typewriterText"></p></div>
+<button class="btn2" onclick="window.location.href ='https://jmusic-1xuz.onrender.com/'">Signup</button>
 </div>
+
+
+
+<script>
+  const text = "Discover. Get Inspired. Explore, JMusic";
+  let index = 0;
+
+  function typeWriter() {
+    if (index < text.length) {
+      document.getElementById("typewriterText").innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeWriter, 100); // Typing speed
+    }
+  }
+
+  typeWriter();
+</script>
+
 </body>
 </html>
