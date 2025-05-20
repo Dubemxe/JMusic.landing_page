@@ -1,11 +1,12 @@
-body, html {
-  margin: 0;
+  body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
-.faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", serif;
-  font-weight: 400;
-  font-style: normal;
+.txtbox {
+  width: 640px;
 }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -15,11 +16,10 @@ body, html {
 .btn1 {
   background-color: rgba(81, 45, 241, 0.082);
   width: 115px;
-  font-weight: bold;
   border: none;
   height: 43px;
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   border-radius: 7px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -30,6 +30,7 @@ body, html {
 }
 a {
   color: white;
+  font-size: 21px;
 }
 .container {
   background-image: url('images/bbgimg.jpg');
@@ -39,46 +40,45 @@ a {
 }
 p {
   color: white;
-  font-weight:  bolder;
   font-size: 23px;
   margin-top: 10px;
   font-family: sans-serif;
 }
 .logotxt {
+  height: 117px;
+  width: 135px;
   margin-left: 25px;
-  margin-right: 670px;
-  margin-bottom: 0;
-  color: rgba(247, 243, 12, 0.911);
+  margin-right: 666px;
+  margin-bottom: 0px;
   cursor: pointer;
-  font-size: 34px;
   margin-top: 0px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .logotxt:hover {
-  color: rgb(253, 250, 70);
   transform: scale(1.1);
 }
 .paneltxt {
   color: white;
-  font-weight: bolder;
-  font-size: 45px;
+  font-size: 56px;
   margin-left: 45px;
   margin-top: 230px;
+  font-weight: bolder;
+
 }
 
 .btn2 {
   width: 243px;
   height: 54px;
   background-color: white;
-  font-weight: bold;
   border: none;
   color: black;
-  margin-top: 12px;
+  margin-top: 72px;
   font-size: 21px;
   border-radius: 7px;
   transition: all 0.3s ease;
   margin-left: 52px;
   cursor: pointer;
+  box-shadow: 8px 8px 16px 16px rgba(0, 0, 0, 0.404);
+
 }
 .btn2:hover {
   opacity: 0.8;
