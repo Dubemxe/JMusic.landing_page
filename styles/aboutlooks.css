@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family:  sans-serif;
+  background-color: #ffdbdb;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 6px;
+  padding: 20px 42px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.intro, .mission, .features {
+  margin-bottom: 40px;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features li {
+  margin-bottom: 10px;
+}
+img.hero-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+p {
+  font-size: 19px;
+}
+.paratxt {
+  font-size: 25px;
+}
+.footer {
+  margin-left: 47px;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 120px;
+}
+.contxt {
+  font-size: 25px;
+  place-self: center;
+  margin-top: 90px;
+}
+.footer_icons {
+  cursor: pointer;
+}
